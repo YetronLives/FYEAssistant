@@ -8,6 +8,8 @@ Get the user to input a width, a length, and a symbol, then print a square, out 
 
 Ex 1.
 
+Input:
+
 Enter a width: **5**
 Enter a length: **3**
 Enter a symbol: **&**
@@ -19,6 +21,8 @@ Output:
     &&&&&
 
 Ex 2.
+
+Input:
 
 Enter a width: **6**
 Enter a length: **2**
@@ -46,7 +50,7 @@ You need to create a function that takes in the amounts of all ingredients and o
 
 ### Example:
 
-Input the amounts of ingredients:
+**Input**
 
 - How much flour do you have in grams: **1900**  
 - How much water do you have in grams: **2100**  
@@ -71,6 +75,7 @@ Next, we want to prompt the user with each question and ask for their answer. In
 
 ### Example:
 
+**Input:**
 1. Please enter question 1: **What is my favorite color**  
    Please enter the answer to **question 1: White**
 
