@@ -40,3 +40,18 @@ else:
 
 
 #MATCH CASE
+discount = 0
+children = int(input("How many children do you have?"))
+if children < 0:
+    print("Invalid Input")
+else:
+    match children: # conditions = 8
+
+        case 0,1:
+            print("Sorry, you cannot get a discount" ) 
+        case 2:
+            print("You get a 5% dicount!")
+        case 3:
+            print("You get a 10% dicount!") 
+        case _: #this will print out if the user has more than 3 children
+            print("You get a 15% dicount!")
